@@ -113,7 +113,6 @@ public class MainActivity extends AppCompatActivity {
             case "阴":
                 weatherStateImg.setBackgroundResource(R.drawable.weather_yin);
                 break;
-<<<<<<< HEAD
             case "多云":
             case "多云转晴":
             case "晴转多云":
@@ -123,15 +122,11 @@ public class MainActivity extends AppCompatActivity {
             case "雾":
             case "浓雾":
             case "强浓雾":
-=======
-            case "雾":
->>>>>>> origin/master
                 weatherStateImg.setBackgroundResource(R.drawable.weather_wu);
                 break;
             case "雪":
                 weatherStateImg.setBackgroundResource(R.drawable.weather_xue);
                 break;
-<<<<<<< HEAD
             case "雨夹雪":
             case "雨夹雪转多云":
             case "多云转雨夹雪":
@@ -232,11 +227,6 @@ public class MainActivity extends AppCompatActivity {
             case "特强霾":
                 weatherStateImg.setBackgroundResource(R.drawable.weather_wumai);
                 break;
-=======
-            case "雨":
-                weatherStateImg.setBackgroundResource(R.drawable.weather_yu);
-                break;
->>>>>>> origin/master
             default:
                 weatherStateImg.setBackgroundResource(R.drawable.weather_weizhi);
                 break;
